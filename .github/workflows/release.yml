@@ -351,7 +351,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Donwload Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           path: artifacts
       - name: Release
@@ -373,7 +373,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           path: artifacts
       - name: Download Telegram Bot API Binary
